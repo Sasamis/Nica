@@ -1,4 +1,4 @@
-# Nica ([En](/README.md) / Ja)
+# Nica (En / [Ja](/README_JA.md))
 
 Nica is an image processing library designed to be used with Nim.  
 It is implemented in Pure Nim and is completely independent of any external libraries, except for the compiler and standard libraries.  

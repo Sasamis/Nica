@@ -1,12 +1,12 @@
 # Nica ([En](/README.md) / Ja)
 
-Nica is an image processing library designed to be used with Nim.  
-It is implemented in Pure Nim and is completely independent of any external libraries, except for the compiler and standard libraries.  
+Nica（二華）は、Nimで利用することを想定した画像処理ライブラリです。  
+Pure Nimで実装されており、コンパイラや標準ライブラリを除いた外部のライブラリに全く依存しません。  
 
-## Goals
-- Being able to handle powerful features in as short a process as possible
-- Becoming the easiest, easiest to use and most prominent library written in Nim
+## 目標
+- なるべく短い処理で、強力な機能を扱うことができること
+- Nimで書かれた最も手軽で、使いやすく、著名なライブラリを作ること
 
-## Features
+## 機能
 
-## Example
+## 実行例

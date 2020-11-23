@@ -1,1 +1,1 @@
-Nica
+# Nica (En / [Ja](/README_JA.md))

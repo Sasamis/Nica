@@ -42,3 +42,16 @@ suite "Matrix type subtraction":
     const right: Nica.Matrix = @[@[7, 8], @[9, 10]]
     expect Nica.MatrixDifferentColumnsError:
       discard left - right
+
+suite "Matrix type multiplication":
+  test "Succeed in multiplication":
+    const left: Nica.Matrix = @[@[0, 1], @[2, 3], @[4, 5]]
+    const right: Nica.Matrix = @[@[0, 1, 2, 3], @[4, 5, 6, 7]]
+    const answer: Nica.Matrix = @[@[4, 5, 6, 7], @[12, 17, 22, 27], @[20, 29, 38, 47]]
+    check left * right == answer
+  
+  test "Failure to calculate the inner productFail to calculate the inner product in matrix type":
+    const left: Nica.Matrix = @[@[1, 2], @[3, 4]]
+    const right: Nica.Matrix = @[@[5, 6], @[7, 8], @[9, 10]]
+    expect Nica.MartixTheInnerProductError:
+      discard left * right

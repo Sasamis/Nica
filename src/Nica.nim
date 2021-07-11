@@ -1,6 +1,4 @@
-include Nicapkg/[MatrixModule, Image]
+include Nicapkg/[MatrixModule]
 
 proc hello* (): string =
   result = "Hello, Nica!"
-
-let img: Image = readPNM("/Users/momiyama/Downloads/circle.pnm")

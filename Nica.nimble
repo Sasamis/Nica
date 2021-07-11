@@ -2,7 +2,7 @@
 
 version       = "0.1.0"
 author        = "momeemt"
-description   = "Image Processor Library"
+description   = "Neat Image Controller Architecture"
 license       = "MIT"
 srcDir        = "src"
 installExt    = @["nim"]
@@ -11,4 +11,5 @@ skipDirs = @["Nicapkg"]
 
 # Dependencies
 
-requires "nim >= 1.4.0"
+requires "nim >= 1.4.8"
+requires "ffmpeg >= 0.3.16"
